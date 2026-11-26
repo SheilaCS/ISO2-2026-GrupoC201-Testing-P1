@@ -47,7 +47,7 @@ java -cp target/classes es.uclm.esi.iso2.aparcamiento.interfaz.Main
 | Decisión | Elección | Justificación |
 |---|---|---|
 | Minutos gratuitos | Los primeros 30 minutos **de la estancia**, una sola vez | Es la lectura más directa de "los primeros 30 minutos son gratuitos" |
-| Minutos de pago | 0,05 € por cada minuto a partir del minuto 30 | Requisitos explícito |
+| Minutos de pago | 0,05 € por cada minuto a partir del minuto 30 | Requisito explícito |
 | Tope máximo diario | 20 € por cada **bloque de 24 horas contado desde la entrada**, no por día natural | Con el día natural habría que partir la estancia a medianoche y una estancia de 23:00 a 01:00 tendría dos topes. El bloque de 24 h depende solo de la entrada. |
 | Redondeo | **Minuto empezado**: 30 min 1 s se cuentan como 31 minutos | Es lo habitual en los tickets de aparcamiento y evita regalar tiempo. |
 | Salida igual a la entrada | Válida: estancia de 0 minutos y coste 0,00 € | Solo se exige error si la salida es **anterior**. |
